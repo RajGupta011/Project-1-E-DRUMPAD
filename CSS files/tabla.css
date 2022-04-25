@@ -1,0 +1,147 @@
+body{
+    /* background-color: rgb(77, 0, 0); */
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient( 120deg, rgb(0, 0, 255), rgba(255, 0, 0, 0.733))  ;
+
+}
+
+.homeBtn{
+    margin: -45vh -48vw;
+    width: 6vw;
+    height: 5vh;
+    border-radius: 3px;
+    color: white;
+    background-color: black;
+    box-shadow: 0px 0px 10px white;
+    
+}
+.light{
+    position: absolute;
+    width: 0.5vw;
+    height: 0.9vh;
+    background-color: red;
+    box-shadow: 0px 0px 10px red;
+    /* border-radius: 5px; */
+    display: block;
+    /* z-index: 2; */
+    margin: -1vh 0vw;
+
+    
+}
+
+.container{
+    display: flex;
+    position: absolute;
+}
+
+.bigSpot{
+    position: absolute;
+    width: 19vw;
+    height: 26vh;
+    background-color: black;
+    border-radius: 100vh;
+    margin: 20vh 0vw 0vh 15vw;
+}
+.smallSpot{
+    position: absolute;
+    width: 16vw;
+    height: 23vh;
+    background-color: black;
+    border-radius: 100vh;
+    margin: 20vh 63vw;
+}
+
+.bigCircle{
+    width: 45vw;
+    height: 45vw;
+    background-color: rgb(255, 215, 140);
+    border-radius: 100vh;
+    border: 16px solid rgb(29, 19, 0);
+    
+}
+.smallCircle{
+    width: 35vw;
+    height: 35vw;
+    background-color:  rgb(255, 215, 140);
+    border-radius: 100vh;
+    border: 16px solid rgb(29, 19, 0);
+    margin: 6vh 0vw 3vh 5vw;
+}
+
+button{
+    position: absolute;
+    width: 7.5vw;
+    height: 10vh;
+    border-radius: 100vh;
+    border: none;
+    z-index: 2;
+}
+/* BASSES BUTTONS */
+.pad1{
+    margin: 7vh 12vw;
+}
+
+.pad2{
+    margin: 18vh 5vw;
+}
+.pad3{
+    margin: 32vh 5vw;
+}
+.pad4{
+    margin: 43vh 10vw;
+}
+.pad5{
+    margin: 47vh 19vw;
+}
+.pad6{
+    margin: 45vh 28vw;
+}
+.pad7{
+    margin: 36vh 34vw;
+}
+.pad8{
+    margin: 24vh 35vw;
+}
+.pad9{
+    margin: 12vh 31vw;
+}
+.pad10{
+    margin: 4vh 22vw;
+}
+
+/* MATELLIC BUTTONS */
+
+.pad11{
+margin: 5.5vh 22vw;
+}
+.pad12{
+margin: 1vh 14vw;
+}
+.pad13{
+margin: 5vh 5.5vw;
+}
+.pad14{
+margin: 16vh 1vw;
+}
+.pad15{
+margin: 28vh 2.5vw;
+}
+.pad16{
+    margin: 36vh 18.5vw;
+}
+.pad17{
+    margin: 36vh 9.5vw;
+}
+.pad18{
+    margin: 28vh 25vw;
+
+}
+.pad19{
+margin: 17vh 25.5vw;
+}
